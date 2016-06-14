@@ -3,10 +3,6 @@ ssl_certificate_exporter
 
 Exporter for SSL Certificate metrics https://prometheus.io/ 
 
-#### Heroku Button
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
 ## Configuration
 
 1. Write the domain you want to check the expiration date of the ssl to JSON File.
@@ -65,4 +61,4 @@ Legend format: {{domain}}
 Axes Left Y Unit: seconds(s)
 ```
 
-![Grafana](grafana-1.png "Grafana")
+![Grafana](https://github.com/s-aska/ssl_certificate_exporter/wiki/grafana-1.png "Grafana")
