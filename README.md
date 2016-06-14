@@ -1,5 +1,5 @@
-ssl_certificate_exporter
-=============
+SSL Certificate Exporter
+========================
 
 Exporter for SSL Certificate metrics https://prometheus.io/ 
 
