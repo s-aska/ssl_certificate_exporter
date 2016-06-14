@@ -27,7 +27,7 @@ cd s-aska/ssl_certificate_exporter
 go build
 env \
     PORT=9100 \
-    CONFIG_URL=https://gist.githubusercontent.com/s-aska/03c41cf0d3f8b369cf0ae80d02a26c02/raw/3c742b80c4c1c7e79fb6705cda19808efb8048eb/config.json \
+    CONFIG_URL="https://.../config.json" \
     ./ssl_certificate_exporter
 ```
 
