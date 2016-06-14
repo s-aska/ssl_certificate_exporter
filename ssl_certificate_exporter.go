@@ -136,5 +136,5 @@ func main() {
 
 func reload(w http.ResponseWriter, r *http.Request) {
 	load()
-	fmt.Fprintf(w, "domains:%v", strings.Join(domains, ","))
+	fmt.Fprintf(w, "Reloading configuration file... domains:%v", strings.Join(domains, ","))
 }
