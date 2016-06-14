@@ -113,7 +113,7 @@ func main() {
 	prometheus.MustRegister(exporter)
 
 	http.Handle("/metrics", prometheus.Handler())
-	http.HandleFunc("/reload", reload)
+	http.HandleFunc("/-/reload", reload)
 
 	port := ":" + os.Getenv("PORT")
 

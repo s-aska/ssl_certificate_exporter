@@ -7,7 +7,7 @@
   "website": "https://github.com/s-aska/ssl_certificate_exporter",
   "repository": "https://github.com/s-aska/ssl_certificate_exporter",
   "env": {
-    "PORT": "8080",
+    "PORT": "9100",
     "CONFIG_URL": "https://gist.githubusercontent.com/xxxx/xxxx/raw/xxxx/config.json"
   }
 }
