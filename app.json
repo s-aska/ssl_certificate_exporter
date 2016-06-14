@@ -1,0 +1,13 @@
+{
+  "name": "ssl certificate exporter",
+  "description": "Exporter for SSL Certificate metrics https://prometheus.io/",
+  "keywords": [
+    "Prometheus"
+  ],
+  "website": "https://github.com/s-aska/ssl_certificate_exporter",
+  "repository": "https://github.com/s-aska/ssl_certificate_exporter",
+  "env": {
+    "PORT": "8080",
+    "CONFIG_URL": "https://gist.githubusercontent.com/xxxx/xxxx/raw/xxxx/config.json"
+  }
+}
